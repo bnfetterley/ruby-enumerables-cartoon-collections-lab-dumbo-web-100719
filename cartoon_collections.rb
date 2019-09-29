@@ -19,7 +19,8 @@ end
 
 
 def find_the_cheese(array)
-  if array.find { |cheese| cheese == "cheddar"|| "gouda"|| "camembert" }
+  if array.find do |cheese|
+    if cheese == "cheddar"|| "gouda"|| "camembert" }
     return cheese
   end
 end

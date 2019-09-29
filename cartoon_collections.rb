@@ -25,6 +25,7 @@ def find_the_cheese(array)
     return cheese
 end
   end
+  return nil
 end
 
 #.any? { |i| [6, 13].include? i }

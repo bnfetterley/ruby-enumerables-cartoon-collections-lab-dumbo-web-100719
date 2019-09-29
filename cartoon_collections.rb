@@ -20,7 +20,7 @@ end
 
 def find_the_cheese(array)
   array.each do |cheese|
-  if array.any? { |cheese| ["cheddar", "gouda", "camembert"] }
+  if array.find { |cheese| ["cheddar", "gouda", "camembert"] }
   end
   #cheese_types = ["cheddar", "gouda", "camembert"]
 end

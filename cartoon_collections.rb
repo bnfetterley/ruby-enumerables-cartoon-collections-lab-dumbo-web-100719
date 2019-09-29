@@ -21,7 +21,6 @@ end
 def find_the_cheese(array)
   if array.find { |cheese| cheese == "cheddar"|| "gouda"|| "camembert" }
   end
-end
-end
+
 
 #.any? { |i| [6, 13].include? i }

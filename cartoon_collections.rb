@@ -20,9 +20,11 @@ end
 
 def find_the_cheese(array)
   array.each do |cheese|
-  if array.include?("cheddar"|| "gouda" || "camembert")
+  if array.any?( |cheese| ["cheddar", "gouda", "camembert"]. include? cheddar)
     return cheese
   end
   #cheese_types = ["cheddar", "gouda", "camembert"]
 end
 end
+
+#.any? { |i| [6, 13].include? i }

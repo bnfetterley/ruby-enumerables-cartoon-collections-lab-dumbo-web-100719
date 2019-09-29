@@ -21,7 +21,6 @@ end
 def find_the_cheese(array)
   array.each do |cheese|
   if array.any? { |cheese| ["cheddar", "gouda", "camembert"] }
-    return cheese
   end
   #cheese_types = ["cheddar", "gouda", "camembert"]
 end

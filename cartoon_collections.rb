@@ -19,7 +19,6 @@ end
 
 
 def find_the_cheese(array)
-  array.each do |cheese|
   if array.find { |cheese| cheese == "cheddar"|| "gouda"|| "camembert" }
   end
 end
